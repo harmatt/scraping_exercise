@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
-from kanary_project.models.demographics import Person
+from models.demographics import Person
 
 
 def scrape_person(person: Person, url="https://golookup.com/") -> str:
